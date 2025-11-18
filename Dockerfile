@@ -44,6 +44,6 @@ EOF
 
 RUN chmod +x /usr/local/bin/start.sh
 
-EXPOSE 3001
+EXPOSE 3000
 
 CMD ["/usr/local/bin/start.sh"]
